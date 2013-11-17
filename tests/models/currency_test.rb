@@ -1,4 +1,4 @@
-require_relative 'test_helper'
+require_relative '../test_helper'
 
 describe Currency do
   let(:valid_amounts) { [3, 4.9, 3.50, 0.47, "3.50", "3"] }
